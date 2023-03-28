@@ -1,0 +1,259 @@
+body {
+  overflow-x: hidden;
+}
+
+.containerJica {
+  padding: 40px;
+  margin-top: 0;
+  height: 50vw;
+  max-width: 100%;
+  background-color: white;
+  background-image: url(/src/images/IITH\ Pics//1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.paragraphs {
+  margin: 60px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+
+.purposeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.purposeImg {
+  height: 300px;
+  width: 500px;
+  margin-top: 60px;
+  border-radius: 20%;
+  transition: transform 450ms;
+}
+.purposeImg:hover {
+  transform: scale(1.08);
+}
+.tableContainer {
+  align-items: center;
+  max-width: 1000vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 10px;
+  overflow: hidden;
+  margin-top: 100px;
+  border-radius: 4px;
+}
+
+/*.tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 1000vw; 
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 10px;
+  width: 90vw;
+  overflow: hidden;
+  margin-top: 100px;
+  border-radius: 4px;
+}
+
+table,
+th,
+td {
+  padding: 1rem;
+}
+
+
+
+
+thead tr th {
+  padding: 19px 10px;
+}
+thead tr th:nth-child(4) {
+  max-width: 100px;
+}
+tbody tr td:nth-child(4) {
+  max-width: 100px;
+}
+
+thead tr th:nth-child(2) {
+  max-width: 30px;
+}
+tbody tr td:nth-child(2) {
+  max-width: 30px;
+}
+thead tr th:nth-child(3) {
+  max-width: 25px;
+}
+tbody tr td:nth-child(3) {
+  max-width: 25px;
+}
+thead tr th:nth-child(5) {
+  max-width: 30px;
+}
+tbody tr td:nth-child(5) {
+  max-width: 30px;
+}
+thead tr th:nth-child(6) {
+  max-width: 25px;
+}
+tbody tr td:nth-child(6) {
+  max-width: 25px;
+}
+thead tr th:nth-child(7) {
+  max-width: 40px;
+}
+tbody tr td:nth-child(7) {
+  max-width: 40px;
+}
+thead tr th:nth-child(8) {
+  max-width: 100px;
+}
+tbody tr td:nth-child(8) {
+  max-width: 100px;
+}
+thead tr th:nth-child(1) {
+  max-width: 2px;
+}
+
+tr td {
+  padding: 10px;
+}*/
+
+thead tr th:nth-child(4) {
+  max-width: 200px;
+}
+tbody tr td:nth-child(4) {
+  max-width: 200px;
+}
+tbody tr {
+  white-space: pre-line;
+  font-family: "Roboto", sans-serif;
+  color: #a0a0a0;
+  transition: transform 450ms;
+}
+table tbody tr:hover {
+  transform: scale(1.02);
+
+  color: #617143;
+}
+thead tr th:nth-child(1) {
+  max-width: 2px;
+}
+tbody tr td:nth-child(1) {
+  text-align: center;
+  max-width: 10px;
+}
+tbody tr td:nth-child(2) {
+  text-align: center;
+}
+tr td {
+  word-wrap: break-word;
+  width: 100px;
+  height: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+table {
+  user-select: none;
+  width: 100%;
+  font-size: 16px;
+  border-collapse: collapse;
+}
+thead {
+  border-color: #a0a0a0;
+  background-image: linear-gradient(320deg, #ede9d5, #fffae3);
+  color: #df7857;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+}
+.vList {
+  list-style: none;
+  margin: 40px;
+}
+.list {
+  padding: 5px;
+  letter-spacing: 0.5px;
+  color: #a0a0a0;
+}
+.list svg {
+  padding-right: 10px;
+  transition: transform 450ms;
+}
+.list:hover svg {
+  transform: scale(2);
+  color: #df7857;
+}
+.list:hover {
+  cursor: context-menu;
+}
+
+.jdImages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jdImg {
+  height: 300px;
+  width: 500px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  /* border-radius: 20%; */
+  transition: transform 450ms;
+}
+.jdImg:hover {
+  transform: scale(1.08);
+}
+
+@media (min-width: 992px) {
+  .purposeContainer {
+    flex-direction: row;
+  }
+  .purposeImg {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .paragraphs {
+    font-size: 16px;
+  }
+  .purposeImg {
+    height: 200px;
+    width: 400px;
+  }
+  .purposeImage {
+    text-align: center;
+  }
+  /* .tableContainer {
+    display: flex;
+    max-width: 1000vw;
+    overflow-x: auto;
+  }
+  table tr {
+    white-space: normal;
+  }
+  tr td {
+    word-wrap: break-word;
+  }
+  thead tr th {
+    padding: 19px 10px;
+  } */
+}
+
+@media (max-width: 992px) {
+  .tableContainer {
+    width: auto;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    /* -ms-overflow-style: -ms-autohiding-scrollbar; */
+    border: 1px solid #ddd;
+  }
+}

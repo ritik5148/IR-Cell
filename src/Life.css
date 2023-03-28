@@ -1,0 +1,769 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+.containerLife {
+  padding: 40px;
+  margin-top: 0;
+  height: 50vw;
+  max-width: 100%;
+  background-color: white;
+  background-image: url(/src/images/IITH\ Pics/LifeAtIITH.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.hyd {
+  /* height: 35vw;
+  width: 100%;
+  background-color: #fff;
+  background-image: url(/src/images/photos/6f049-hyderabad.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.iit {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.iit1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.libContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-left: 50px;
+}
+.cultContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-right: 50px;
+}
+.sportsContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-left: 50px;
+}
+.mediaContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-right: 50px;
+}
+.sciContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-left: 50px;
+}
+.messContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-right: 50px;
+}
+.accContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-left: 40px;
+}
+.diningContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-right: 50px;
+}
+.festContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-left: 50px;
+}
+.recContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-right: 50px;
+}
+.hospitalContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-left: 50px;
+}
+.shopContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-right: 50px;
+}
+.cantContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-left: 50px;
+}
+.showContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-right: 50px;
+}
+.transportContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  margin-left: 50px;
+}
+
+.hydImage {
+  height: 30vw;
+  width: 17vw;
+  border-radius: 3%;
+  margin-left: 25px;
+  transition: transform 450ms;
+}
+.hydImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.iitImage {
+  height: 30vw;
+  width: 17vw;
+  border-radius: 3%;
+  margin-right: 25px;
+  transition: transform 450ms;
+}
+.iitImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.iitImage1 {
+  height: 15vw;
+  width: 30vw;
+  border-radius: 20%;
+  margin-top: 25px;
+  padding: 20px;
+  transition: transform 450ms;
+}
+.iitImage1:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.iitImage2 {
+  height: 15vw;
+  width: 30vw;
+  border-radius: 20%;
+  margin-top: 25px;
+  padding: 20px;
+
+  transition: transform 450ms;
+}
+.iitImage2:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.libImage {
+  height: 20vw;
+  width: 30vw;
+  margin-top: 25px;
+  padding: 20px;
+  transition: transform 450ms;
+}
+.libImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.cultImage {
+  height: 200px;
+  width: 400px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.cultImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.sportsImage {
+  height: 200px;
+  width: 400px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.sportsImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.mediaImage {
+  height: 200px;
+  width: 400px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.mediaImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.sciImage {
+  height: 200px;
+  width: 400px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.sciImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.messImage {
+  height: 200px;
+  width: 400px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.messImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.accImage {
+  height: 30vw;
+  width: 17vw;
+  border-radius: 3%;
+  margin-left: 25px;
+  transition: transform 450ms;
+}
+.accImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.diningImage {
+  height: 200px;
+  width: 400px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.diningImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.festImage {
+  height: 350px;
+  width: 400px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.festImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.recImage {
+  height: 200px;
+  width: 400px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.recImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.hospitalImage {
+  height: 250px;
+  width: 400px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.hospitalImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.shopImage {
+  height: 200px;
+  width: 400px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.shopImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.cantImage {
+  height: 300px;
+  width: 550px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.cantImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.showImage {
+  height: 200px;
+  width: 400px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.showImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+.transportImage {
+  height: 300px;
+  width: 450px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  border-radius: 17%;
+  transition: transform 450ms;
+}
+.transportImage:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.hydPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.iitPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.libPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.cultPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.sportsPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.mediaPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.sciPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.messPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.accPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.diningPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.festPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.recPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.hospitalPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.shopPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.cantPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.showPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+.transportPara {
+  margin: 20px 40px;
+  font-size: 1.1vw;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #a0a0a0;
+}
+h3 {
+  color: #df7857;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cardOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: 100% 100%;
+  height: 66vw;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.itemLife {
+  text-align: center;
+  font-size: 4.5vw;
+  letter-spacing: 1.2vw;
+  max-width: 100%;
+  height: 250px;
+  margin: 0;
+  color: #ede9d5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fade--up {
+  height: 7rem;
+  width: 100%;
+  background-image: linear-gradient(180deg, #fff, #ede9d5);
+}
+
+.head {
+  margin-top: 100px;
+  margin-left: 70px;
+}
+.rightHead {
+  text-align: right;
+  margin-right: 70px;
+}
+
+@media (min-width: 992px) {
+  .cardOverlay {
+    height: 55.4vw;
+  }
+
+  .hyd {
+    flex-direction: row;
+  }
+  .iit {
+    flex-direction: row;
+  }
+  .iit1 {
+    flex-direction: row;
+  }
+  .libContainer {
+    flex-direction: row;
+  }
+  .cultContainer {
+    flex-direction: row;
+  }
+  .sportsContainer {
+    flex-direction: row;
+  }
+  .mediaContainer {
+    flex-direction: row;
+  }
+  .sciContainer {
+    flex-direction: row;
+  }
+  .messContainer {
+    flex-direction: row;
+  }
+  .accContainer {
+    flex-direction: row;
+  }
+  .diningContainer {
+    flex-direction: row;
+  }
+  .festContainer {
+    flex-direction: row;
+  }
+  .recContainer {
+    flex-direction: row;
+  }
+  .hospitalContainer {
+    flex-direction: row;
+  }
+  .shopContainer {
+    flex-direction: row;
+  }
+  .cantContainer {
+    flex-direction: row;
+  }
+  .showContainer {
+    flex-direction: row;
+  }
+  .transportContainer {
+    flex-direction: row;
+  }
+
+  .hydPara {
+    text-align: left;
+  }
+  .iitPara {
+    text-align: right;
+  }
+  .libPara {
+    text-align: left;
+  }
+  .cultPara {
+    text-align: right;
+  }
+  .sportsPara {
+    text-align: left;
+  }
+  .mediaPara {
+    text-align: right;
+  }
+  .sciPara {
+    text-align: left;
+  }
+  .messPara {
+    text-align: right;
+  }
+  .accPara {
+    text-align: left;
+  }
+  .diningPara {
+    text-align: right;
+  }
+  .festPara {
+    text-align: left;
+  }
+  .recPara {
+    text-align: right;
+  }
+  .hospitalPara {
+    text-align: left;
+  }
+  .shopPara {
+    text-align: right;
+  }
+  .cantPara {
+    text-align: left;
+  }
+  .showPara {
+    text-align: right;
+  }
+  .transportPara {
+    text-align: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .hydPara {
+    font-size: 16px;
+  }
+  .iitPara {
+    font-size: 16px;
+  }
+  .libPara {
+    font-size: 16px;
+  }
+  .cultPara {
+    font-size: 16px;
+  }
+  .sportsPara {
+    font-size: 16px;
+  }
+  .mediaPara {
+    font-size: 16px;
+  }
+  .sciPara {
+    font-size: 16px;
+  }
+  .messPara {
+    font-size: 16px;
+  }
+  .accPara {
+    font-size: 16px;
+  }
+  .diningPara {
+    font-size: 16px;
+  }
+  .festPara {
+    font-size: 16px;
+  }
+  .recPara {
+    font-size: 16px;
+  }
+  .hospitalPara {
+    font-size: 16px;
+  }
+  .shopPara {
+    font-size: 16px;
+  }
+  .cantPara {
+    font-size: 16px;
+  }
+  .showPara {
+    font-size: 16px;
+  }
+  .transportPara {
+    font-size: 16px;
+  }
+
+  .hydImage {
+    height: 300px;
+    width: 150px;
+  }
+  .iitImage {
+    height: 300px;
+    width: 150px;
+  }
+  .iitImage1 {
+    height: 150px;
+    width: 300px;
+  }
+  .iitImage2 {
+    height: 150px;
+    width: 300px;
+  }
+  .libImage {
+    height: 200px;
+    width: 250px;
+  }
+  .accImage {
+    height: 300px;
+    width: 150px;
+  }
+
+  .hydI {
+    text-align: center;
+  }
+  .iitI {
+    text-align: center;
+  }
+  .iit1 {
+    text-align: center;
+  }
+  .libI {
+    text-align: center;
+  }
+  .cultI {
+    text-align: center;
+  }
+  .sportsI {
+    text-align: center;
+  }
+  .mediaI {
+    text-align: center;
+  }
+  .sciI {
+    text-align: center;
+  }
+  .messI {
+    text-align: center;
+  }
+  .accI {
+    text-align: center;
+  }
+  .diningI {
+    text-align: center;
+  }
+  .festI {
+    text-align: center;
+  }
+  .recI {
+    text-align: center;
+  }
+  .hospitalI {
+    text-align: center;
+  }
+  .shopI {
+    text-align: center;
+  }
+  .cantI {
+    text-align: center;
+  }
+  .showI {
+    text-align: center;
+  }
+  .transportI {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .itemLife {
+    font-size: 5vw;
+  }
+}

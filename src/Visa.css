@@ -1,0 +1,16 @@
+.containerVisa {
+  padding: 40px;
+  margin-top: 0;
+  height: 50vw;
+  max-width: 100%;
+  background-color: white;
+  background-image: url(/src/images/IITH\ Pics/Visa.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.note {
+  color: #617143;
+  margin-left: 80px;
+  margin-top: 0;
+}
